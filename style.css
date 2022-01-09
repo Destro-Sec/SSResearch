@@ -16,3 +16,65 @@ button {
   line-height: 24px;
   margin-left: 20px;
 }
+
+.content1 h3 {
+  position: absolute;
+  width: 538px;
+  height: 210px;
+  left: 222px;
+  top: 107px;
+
+  font-family: Reem Kufi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 70px;
+
+  color: #000000;
+}
+.content1 p {
+  position: absolute;
+  width: 560px;
+  height: 189px;
+  left: 222px;
+  top: 304px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 35px;
+
+  color: #000000;
+}
+
+.content2 h3 {
+  position: absolute;
+  width: 538px;
+  height: 210px;
+  left: 222px;
+  top: 607px;
+
+  font-family: Reem Kufi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 70px;
+
+  color: #000000;
+}
+.content2 p {
+  position: absolute;
+  width: 560px;
+  height: 189px;
+  left: 222px;
+  top: 734px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 35px;
+
+  color: #000000;
+}
