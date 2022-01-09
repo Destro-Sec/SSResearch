@@ -1,10 +1,12 @@
 button {
+  position: relative;
+  border: none;
   float: right;
   display: block;
   height: 43px;
   width: 144px;
-  left: 1101px;
-  top: 48px;
+  left: -10px;
+  top: 30px;
   border-radius: 15px;
   background: #504cff;
   color: white;
@@ -16,7 +18,12 @@ button {
   line-height: 24px;
   margin-left: 20px;
 }
-
+.logoNav {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 30px;
+}
 .content1 h3 {
   position: absolute;
   width: 538px;
@@ -75,6 +82,21 @@ button {
   font-weight: normal;
   font-size: 25px;
   line-height: 35px;
+
+  color: #000000;
+}
+h3 {
+  position: absolute;
+  width: 538px;
+  height: 210px;
+  left: 222px;
+  top: 1107px;
+
+  font-family: Reem Kufi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 70px;
 
   color: #000000;
 }
