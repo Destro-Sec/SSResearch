@@ -87,32 +87,50 @@ p {
   margin-right: 30px;
 }
 
-@media (min-width: 1400px) {
-  .cont {
-    width: 650px;
-    margin-right: 150px;
-  }
-  h3 {
-    font-size: 80px;
-    line-height: 88px;
-  }
-  h4 {
-    font-size: 80px;
-    line-height: 88px;
-  }
-  p {
-    font-size: 24px;
-  }
-}
 @media (max-width: 1100px) {
   .content1,
   .content2 {
     flex-direction: column;
   }
   .content2 {
-    margin-top: 20%;
+    margin-top: 30%;
   }
 }
+@media (max-width: 500px) {
+  button {
+    width: 100px;
+    font-size: 10px;
+  }
+  .btn {
+    margin-right: 0;
+  }
+  .logo {
+    width: 60px;
+    margin-left: 10px;
+  }
+  .navbar {
+    height: 60px;
+  }
+  h3 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .content1 {
+    padding-top: 100px;
+  }
+  p {
+    font-size: 20px;
+  }
+  .cont {
+    width: 280px;
+    margin-right: 10px;
+  }
+  .svgone {
+    width: 280px;
+    margin-top: 50px;
+  }
+}
+
 .container {
   width: 50px;
   height: 50px;
@@ -142,9 +160,136 @@ p {
   align-items: center;
   padding: 30px;
   margin-left: 150px;
-  margin-top: -150px;
+  margin-top: -100px;
 }
 
-/* .sp1 {
-  margin-top: -150px;
-} */
+.sp2 img {
+  margin-left: -150px;
+}
+
+.sp2 .contlr {
+  margin-left: 270px;
+}
+
+.footer {
+  position: absolute;
+  width: 1504px;
+  height: 277px;
+  left: -41px;
+  top: 3300px;
+
+  background: #28323c;
+}
+.brick1 .l1 {
+  position: absolute;
+  width: 230px;
+  height: 43px;
+  left: 137px;
+  top: 60px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+
+  color: #ffffff;
+}
+
+.brick2 {
+  position: absolute;
+  width: 1591px;
+  height: 50px;
+  left: -18px;
+  top: 220px;
+
+  background: #1c252e;
+}
+
+.brick1 .r1 {
+  position: absolute;
+  width: 138px;
+  height: 34px;
+  left: 969px;
+  top: 60px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 34px;
+
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.brick1 .r2 {
+  position: absolute;
+  width: 143px;
+  height: 34px;
+  left: 1100px;
+  top: 60px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 34px;
+
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.brick1 a {
+  position: absolute;
+  width: 147px;
+  height: 45px;
+  left: 646px;
+  top: 120px;
+
+  font-family: Reem Kufi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 45px;
+
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.brick2 .l1 {
+  position: absolute;
+  width: 824px;
+  height: 24px;
+  left: 156px;
+  top: 20px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.brick2 .r1 {
+  position: absolute;
+  width: 388px;
+  height: 34px;
+  left: 934px;
+  top: 20px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 34px;
+
+  /* identical to box height */
+
+  color: #ffffff;
+}
