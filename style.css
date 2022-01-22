@@ -134,7 +134,7 @@ p {
   margin-top: -150px;
 }
 
-.contle {
+.SupportPara {
   width: auto;
   height: calc(100vh - 95px) !important;
   display: flex;
@@ -142,5 +142,9 @@ p {
   align-items: center;
   padding: 30px;
   margin-left: 150px;
-  margin-top: -70px;
+  margin-top: -150px;
 }
+
+/* .sp1 {
+  margin-top: -150px;
+} */
