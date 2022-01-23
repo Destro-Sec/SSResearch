@@ -57,6 +57,9 @@ button {
   padding: 30px;
   margin-left: -20px;
 }
+.content2 .svgone {
+  margin-left: 130px;
+}
 .content1 {
   width: auto;
   height: calc(100vh - 95px) !important;
@@ -87,50 +90,12 @@ p {
   margin-right: 30px;
 }
 
-@media (max-width: 1100px) {
-  .content1,
-  .content2 {
-    flex-direction: column;
-  }
-  .content2 {
-    margin-top: 30%;
-  }
+.wo {
+  display: flex;
+  flex-direction: row;
+  margin-left: -540px;
+  margin-top: auto;
 }
-@media (max-width: 500px) {
-  button {
-    width: 100px;
-    font-size: 10px;
-  }
-  .btn {
-    margin-right: 0;
-  }
-  .logo {
-    width: 60px;
-    margin-left: 10px;
-  }
-  .navbar {
-    height: 60px;
-  }
-  h3 {
-    font-size: 35px;
-    line-height: 40px;
-  }
-  .content1 {
-    padding-top: 100px;
-  }
-  p {
-    font-size: 20px;
-  }
-  .cont {
-    width: 280px;
-    margin-right: 10px;
-  }
-  .svgone {
-    width: 280px;
-    margin-top: 50px;
-  }
-}
-
 .container {
   width: 50px;
   height: 50px;
@@ -159,6 +124,7 @@ p {
   flex-direction: row;
   align-items: center;
   padding: 30px;
+  position: relative;
   margin-left: 150px;
   margin-top: -100px;
 }
@@ -182,7 +148,7 @@ p {
 }
 .brick1 .l1 {
   position: relative;
-  width: 230px;
+  width: 100vw;
   height: 43px;
   left: 200px;
   top: 100px;
@@ -289,4 +255,52 @@ p {
   font-size: 20px;
   line-height: 34px;
   color: #ffffff;
+}
+
+@media (max-width: 1100px) {
+  .content1,
+  .content2 {
+    flex-direction: column;
+  }
+  .content2 {
+    margin-top: 30%;
+  }
+}
+@media (max-width: 500px) {
+  button {
+    width: 100px;
+    font-size: 10px;
+  }
+  .btn {
+    margin-right: 0;
+  }
+  .logo {
+    width: 60px;
+    margin-left: 10px;
+  }
+  .navbar {
+    height: 60px;
+  }
+  h3 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .content1 {
+    padding-top: 100px;
+  }
+  p {
+    font-size: 20px;
+  }
+  .cont {
+    width: 280px;
+    margin-right: 10px;
+  }
+  .svgone {
+    width: 280px;
+    margin-top: 50px;
+    margin-left: 10px !important;
+  }
+  .wo {
+    margin-left: 0px;
+  }
 }
