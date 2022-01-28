@@ -75,11 +75,20 @@ h3 {
   font-weight: 500;
   line-height: 64px;
 }
+.BotCont {
+  margin-left: 50px;
+}
+.spp1 {
+  margin-top: -10px;
+}
 h4 {
   font-family: Reem Kufi;
   font-size: 30px;
   font-weight: 500;
   line-height: 34px;
+}
+.sp1 img {
+  margin-left: 180px;
 }
 p {
   font-size: 22px;
@@ -115,6 +124,7 @@ p {
   margin-right: 30px;
   margin-left: -140px;
   margin-top: -150px;
+  position: relative;
 }
 
 .SupportPara {
@@ -302,5 +312,6 @@ p {
   }
   .wo {
     margin-left: 0px;
+    top: 20px;
   }
 }
