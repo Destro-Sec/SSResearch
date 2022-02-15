@@ -79,7 +79,7 @@ a img {
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 5rem;
+    top: 6rem;
     flex-direction: column;
     background-color: #fff;
     width: 100%;
