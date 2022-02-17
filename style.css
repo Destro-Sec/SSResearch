@@ -85,6 +85,7 @@ a img {
   margin: 0 auto;
   max-width: 1000px;
   position: relative;
+  z-index: -1;
 }
 
 .gallery-item {
