@@ -20,6 +20,14 @@ const galleryControlsContainer = document.querySelector('.gallery-controls');
 const galleryControls = ['previous', '', 'next'];
 const galleryItems = document.querySelectorAll('.gallery-item');
 
+function pausecomp(millis)
+{
+    var date = new Date();
+    var curDate = null;
+    do { curDate = new Date(); }
+    while(curDate-date < millis);
+}
+
 class Carousel {
   constructor(container, items, controls) {
     this.carouselContainer = container;
@@ -54,6 +62,11 @@ class Carousel {
     this.updateGallery();
   }
 
+  AutoSlide() {
+    this.carouselArray.push(this.carouselArray.shift());
+    this.updateGallery();
+  }
+
   // Construct the carousel navigation
   // setNav() {
     // galleryContainer.appendChild(document.createElement('ul')).className = 'gallery-nav';
@@ -69,7 +82,7 @@ class Carousel {
     this.carouselControls.forEach(control => {
       galleryControlsContainer.appendChild(document.createElement('button')).className = `gallery-controls-${control}`;
 
-      document.querySelector(`.gallery-controls-${control}`).innerText = control;
+      // document.querySelector(`.gallery-controls-${control}`).innerText = control;
     });
   }
  
@@ -105,6 +118,7 @@ class Carousel {
       });
     });
   }
+
 }
 
 const exampleCarousel = new Carousel(galleryContainer, galleryItems, galleryControls);
@@ -112,3 +126,4 @@ const exampleCarousel = new Carousel(galleryContainer, galleryItems, galleryCont
 exampleCarousel.setControls();
 // exampleCarousel.setNav();
 exampleCarousel.useControls();
+
