@@ -177,7 +177,7 @@ a img {
 }
 
 .gallery-controls-previous:hover::before {
-  right: -480px;
+  right: 480px;
 }
 
 .gallery-controls-next {
