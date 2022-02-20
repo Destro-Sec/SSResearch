@@ -201,7 +201,7 @@ a img {
 }
 
 .gallery-controls-next:hover::before {
-  right: -18px;
+  left: 480px;
 }
 
 .gallery-nav {
