@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -224,6 +224,15 @@ a img {
 
 .gallery-nav li.gallery-item-selected {
   background: #555;
+}
+.container {
+  padding: 0 100px;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  top: 150px;
+  font-size: 250%;
 }
 
 @media only screen and (max-width: 768px) {
