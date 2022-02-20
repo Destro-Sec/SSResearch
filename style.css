@@ -177,7 +177,7 @@ a img {
 }
 
 .gallery-controls-previous:hover::before {
-  right: 480px;
+  left: -18px;
 }
 
 .gallery-controls-next {
@@ -201,7 +201,7 @@ a img {
 }
 
 .gallery-controls-next:hover::before {
-  left: 480px;
+  right: -18px;
 }
 
 .gallery-nav {
@@ -235,7 +235,7 @@ h2 {
   font-size: 250%;
 }
 
-@media only screen and (max-width: 448px) {
+@media only screen and (max-width: 768px) {
   .navbar {
     position: relative;
     max-width: 100%;
@@ -306,5 +306,11 @@ h2 {
     transform: rotate(135deg) translateY(-50%);
     transition: left 0.15s ease-in-out;
     width: 4px;
+  }
+  .gallery-controls-previous:hover::before {
+    left: 380px;
+  }
+  .gallery-controls-next:hover::before {
+    right: 370px;
   }
 }
