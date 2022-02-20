@@ -127,3 +127,11 @@ exampleCarousel.setControls();
 // exampleCarousel.setNav();
 exampleCarousel.useControls();
 
+
+
+const navItem = document.querySelect(".nav-item");
+
+
+function gaveActive() {
+  navItem.classList.toggle("active");
+}
