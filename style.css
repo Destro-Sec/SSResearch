@@ -177,7 +177,7 @@ a img {
 }
 
 .gallery-controls-previous:hover::before {
-  left: -18px;
+  right: -480px;
 }
 
 .gallery-controls-next {
@@ -235,7 +235,7 @@ h2 {
   font-size: 250%;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 448px) {
   .navbar {
     position: relative;
     max-width: 100%;
