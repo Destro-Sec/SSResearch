@@ -291,6 +291,26 @@ p {
   position: relative;
   font-size: 250%;
 }
+.feedback {
+  display: flex;
+  height: 320px;
+  position: relative;
+  overflow: hidden;
+  top: 390px;
+  background-repeat: no-repeat;
+}
+.fb1 {
+  background-image: url("./images/Group\ 35.svg");
+  left: 90px;
+}
+.fb2 {
+  background-image: url("./images/Group\ 35.svg");
+  left: 90px;
+}
+.fb3 {
+  background-image: url("./images/Group\ 35.svg");
+  left: 90px;
+}
 @media only screen and (max-width: 768px) {
   .navbar {
     position: relative;
@@ -369,5 +389,8 @@ p {
   }
   .gallery-controls-next:hover::before {
     right: 370px;
+  }
+  .container {
+    padding: 0 50px;
   }
 }
