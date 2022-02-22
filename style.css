@@ -291,25 +291,29 @@ p {
   position: relative;
   font-size: 250%;
 }
+.feedbacks {
+  position: relative;
+}
 .feedback {
   display: flex;
-  height: 320px;
-  position: relative;
+  height: 350px;
+  width: 370px;
+  position: absolute;
   overflow: hidden;
   top: 390px;
   background-repeat: no-repeat;
 }
 .fb1 {
   background-image: url("./images/Group\ 35.svg");
-  left: 90px;
+  left: 50px;
 }
 .fb2 {
   background-image: url("./images/Group\ 35.svg");
-  left: 90px;
+  left: 425px;
 }
 .fb3 {
   background-image: url("./images/Group\ 35.svg");
-  left: 90px;
+  left: 800px;
 }
 @media only screen and (max-width: 768px) {
   .navbar {

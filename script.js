@@ -129,7 +129,7 @@ exampleCarousel.useControls();
 
 
 
-const navItem = document.querySelect(".nav-item");
+const navItem = document.querySelector(".nav-item");
 
 
 function gaveActive() {
