@@ -429,7 +429,7 @@ feedbacks-control {
   width: 283.43px;
   height: 43px;
   left: 50px;
-  top: 150px;
+  top: 70.4px;
 
   font-family: Lato;
   font-style: normal;
@@ -518,16 +518,16 @@ feedbacks-control {
 }
 .developer {
   position: absolute;
-  width: 385.13px;
-  height: 50.44px;
-  left: 950px;
-  bottom: 8.97px;
+  width: 503px;
+  height: 24px;
+  right: -270px;
+  bottom: 24.4px;
 
   font-family: Lato;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
-  line-height: 43px;
+  font-size: 20px;
+  line-height: 24px;
 
   color: #ffffff;
 }
