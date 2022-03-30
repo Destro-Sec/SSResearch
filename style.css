@@ -315,74 +315,6 @@ p {
   background-image: url("./images/Group\ 35.svg");
   left: 800px;
 }
-feedbacks-control {
-  display: flex;
-  justify-content: center;
-  margin: 30px 0;
-  margin-top: -190px;
-}
-
-.feedbacks-control button {
-  background-color: transparent;
-  border: 0;
-  cursor: pointer;
-  font-size: 16px;
-  margin: 0 20px;
-  padding: 0 12px;
-  text-transform: capitalize;
-}
-
-.feedbacks-control button:focus {
-  outline: none;
-}
-
-.feedbacks-control-previous {
-  position: relative;
-  right: 480px;
-}
-
-.feedbacks-control-previous::before {
-  border: solid #000;
-  border-width: 0 2px 2px 0;
-  content: "";
-  display: inline-block;
-  height: 4px;
-  left: 450px;
-  top: 533px;
-  padding: 8px;
-  position: absolute;
-  transform: rotate(135deg) translateY(-50%);
-  transition: left 0.15s ease-in-out;
-  width: 4px;
-}
-
-.feedbacks-control-previous:hover::before {
-  right: 470px;
-}
-
-.feedbacks-control-next {
-  position: relative;
-  left: 480px;
-}
-
-.feedbacks-control-next::before {
-  border: solid #000;
-  border-width: 0 2px 2px 0;
-  content: "";
-  display: inline-block;
-  height: 4px;
-  padding: 8px;
-  position: absolute;
-  left: 620px;
-  top: 550px;
-  transform: rotate(-45deg) translateY(-50%);
-  transition: right 0.15s ease-in-out;
-  width: 4px;
-}
-
-.feedbacks-control-next:hover::before {
-  left: 620px;
-}
 .subcont {
   height: 200px;
   top: 700px;
@@ -394,7 +326,6 @@ feedbacks-control {
   position: absolute;
   top: 50%;
   left: 50%;
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 .submit {
@@ -618,22 +549,21 @@ feedbacks-control {
   }
   .feedback {
     background-size: 280px;
+    width: 290px;
+    margin: 0;
+    position: absolute;
+    top: 570px;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   .fb1 {
-    left: 20px;
+    /* left: 0px; */
   }
   .fb2 {
     display: none;
   }
   .fb3 {
     display: none;
-  }
-  .feedbacks-control-previous::before {
-    top: 500px;
-  }
-  .feedbacks-control-next::before {
-    left: -258px;
-    top: 515px;
   }
   .subcont {
     top: 600px;
