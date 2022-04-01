@@ -242,7 +242,7 @@ p {
   top: 180px;
   font-size: 150%;
 }
-.container img {
+.container .central-figure {
   position: relative;
   top: 250px;
   display: block;
@@ -315,9 +315,12 @@ p {
   background-image: url("./images/Group\ 35.svg");
   left: 800px;
 }
+.owl-carousel {
+  top: 400px;
+}
 .subcont {
   height: 200px;
-  top: 700px;
+  top: 400px;
   position: relative;
 }
 
@@ -342,6 +345,7 @@ p {
 }
 .footer {
   position: relative;
+  top: -300px;
 }
 .brick1 {
   position: absolute;
