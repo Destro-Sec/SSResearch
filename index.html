@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <link rel=" shortcut icon" href="./images/logo.png" type="image/x-icon">
-    <link rel=" stylesheet" href="style.css" />
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.theme.default.min.css">
+    <link rel=" stylesheet" href="style.css" />
     <title>SSResearch</title>
 </head>
 
@@ -43,17 +43,16 @@
             <span class="bar"></span>
         </div>
     </nav>
-    <div class="gallery">
-        <div class="gallery-container">
-            <img class="gallery-item gallery-item-1" src="./images/1.jpeg" data-index="1">
-            <img class="gallery-item gallery-item-2" src="./images/2.jpeg" data-index="2">
-            <img class="gallery-item gallery-item-3" src="./images/3.jpeg" data-index="3">
-            <img class="gallery-item gallery-item-4" src="./images/4.jpeg" data-index="4">
-            <img class="gallery-item gallery-item-5" src="./images/5.jpeg" data-index="5">
-        </div>
-        <div class="gallery-controls"></div>
-    </div>
+
+
     <div class="container">
+        <div class="gallery-carousel owl-carousel owl-theme">
+            <div class="item"><img src="./images/1.jpeg"></div>
+            <div class="item"><img src="./images/2.jpeg"></div>
+            <div class="item"><img src="./images/3.jpeg"></div>
+            <div class="item"><img src="./images/4.jpeg"></div>
+            <div class="item"><img src="./images/5.jpeg"></div>
+        </div>
         <h2>Why SS Research Consultant?</h2>
         <p>We assist you in any line of your research path and we are eminent in tracking you from any step of your
             research
@@ -83,7 +82,7 @@
 
 
         <h2 class="feedback-h2">Feedback from our clients:</h2>
-        <div class="owl-carousel owl-theme">
+        <div class="feedback-carousel owl-carousel owl-theme">
             <div class="item">
                 <img src="./images/Group 35.svg" alt="">
             </div>

@@ -1,25 +1,22 @@
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 const navLink = document.querySelectorAll(".nav-link");
+const galleryCarousel=document.querySelector(".gallery-carousel")
+
 
 hamburger.addEventListener("click", mobileMenu);
 navLink.forEach(n => n.addEventListener("click", closeMenu));
 
 function mobileMenu() {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+  galleryCarousel.classList.toggle("active");
 }
 
 function closeMenu() {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
+  hamburger.classList.remove("active");
+  navMenu.classList.remove("active");
+  galleryCarousel.classList.remove("active");
 }
 
-
-const navItem = document.querySelector(".nav-item");
-
-
-function gaveActive() {
-  navItem.classList.toggle("active");
-}
 
