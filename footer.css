@@ -1,0 +1,160 @@
+.footer {
+  position: relative;
+  top: -300px;
+}
+.brick1 {
+  position: absolute;
+  margin: 0;
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  background-color: #28323c;
+  top: 700px;
+}
+.b1cont {
+  position: relative;
+}
+.title {
+  position: absolute;
+  width: 283.43px;
+  height: 43px;
+  left: 50px;
+  top: 70.4px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+
+  color: #ffffff;
+}
+.contact {
+  position: absolute;
+  width: 138px;
+  height: 34px;
+  left: 969px;
+  top: 70.4px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 34px;
+
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.number {
+  position: absolute;
+  width: 164px;
+  height: 34px;
+  left: 1126px;
+  top: 70.4px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 34px;
+
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.register {
+  position: absolute;
+  height: 53px;
+  width: 180px;
+  left: 600px;
+  top: 252.4px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 52px;
+
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.brick2 {
+  position: absolute;
+  width: 100%;
+  height: 74px;
+  top: 1030px;
+  bottom: -8.6px;
+  overflow: hidden;
+  background-color: #1c252e;
+}
+.copyright {
+  position: absolute;
+  width: 503px;
+  height: 24px;
+  left: 17px;
+  bottom: 24.4px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.developer {
+  position: absolute;
+  width: 503px;
+  height: 24px;
+  right: -270px;
+  bottom: 24.4px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+.destro {
+  color: #57f5ff;
+}
+@media only screen and (max-width: 768px) {
+  .brick1 {
+    height: 300px;
+    top: 800px;
+  }
+  .title {
+    left: 10px;
+    top: 20.4px;
+    font-size: 15px;
+  }
+  .copyright {
+    font-size: 10px;
+    width: 193px;
+    top: 11px;
+  }
+  .developer {
+    right: -390px;
+    font-size: 10px;
+  }
+  .contact {
+    left: 250px;
+    top: 25px;
+    font-size: 17px;
+  }
+  .number {
+    left: 276px;
+    font-size: 12px;
+  }
+  .register {
+    left: 120px;
+    top: 172.4px;
+    font-size: 25px;
+  }
+}
