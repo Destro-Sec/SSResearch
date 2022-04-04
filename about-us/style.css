@@ -1,3 +1,53 @@
-body {
-  overflow: hidden;
+.container {
+  padding: 0 100px;
+}
+.fsthead {
+  color: #2e3190;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 60px;
+  text-align: center;
+  top: 25px;
+  position: relative;
+}
+p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 35px;
+  top: 100px;
+  position: relative;
+}
+
+.sechead {
+  color: #2e3190;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 60px;
+  top: 155px;
+  position: relative;
+}
+.secp {
+  top: 200px;
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 0 50px;
+    z-index: -1;
+    position: relative;
+  }
+  .fsthead,
+  .sechead {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  p {
+    font-size: 15px;
+    line-height: 30px;
+  }
 }

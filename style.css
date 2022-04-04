@@ -166,15 +166,6 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  .fb1 {
-    /* left: 0px; */
-  }
-  .fb2 {
-    display: none;
-  }
-  .fb3 {
-    display: none;
-  }
   .subcont {
     top: 500px;
   }
