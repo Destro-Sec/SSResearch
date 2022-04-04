@@ -1,16 +1,16 @@
 .container {
   padding: 0 100px;
 }
-.fsthead {
-  color: #2e3190;
+h3 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
-  line-height: 60px;
-  text-align: center;
-  top: 25px;
+  text-align: left;
+  top: 50px;
   position: relative;
+  line-height: 52px;
+  color: #2e3190;
 }
 p {
   font-family: "Poppins";
@@ -30,9 +30,14 @@ p {
   font-weight: 600;
   font-size: 30px;
   line-height: 60px;
-  top: 155px;
+  top: 65px;
   position: relative;
   text-align: left;
+}
+.handsign {
+  position: relative;
+  float: left;
+  top: 60px;
 }
 .secp {
   top: 200px;
