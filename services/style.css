@@ -34,7 +34,7 @@ p {
   position: relative;
   text-align: left;
 }
-.handsign {
+.internal img {
   position: relative;
   float: left;
   top: 60px;
@@ -56,7 +56,6 @@ body {
     z-index: -1;
     position: relative;
   }
-  .fsthead,
   .sechead {
     font-size: 20px;
     line-height: 40px;
